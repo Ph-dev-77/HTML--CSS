@@ -99,6 +99,11 @@ body{
 .apresentacao__links__link:hover{
     background-color: #272727;
 }
+.img__ph{
+    width: 450px;
+    border-radius: 20px;
+    box-shadow: #ffffff34 1px 1px 7px 8px;
+}
 .rodape{
     color: #000000;
     background-color: #22D4FD;

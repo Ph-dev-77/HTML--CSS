@@ -27,6 +27,8 @@ body{
     font-size: 23px;
     font-weight: 600;  
     cursor: pointer;
+    font-size: 35px;
+    
 }
 .cabecalho__menu__link:hover{
     color: #22D4FD;
@@ -46,7 +48,8 @@ body{
 .paragrafo-text{
     flex-direction: column;
     width: 615px;
-    line-height: 20px;
+    line-height: 25px;
+    font-size: 20px;
 }
 
 
