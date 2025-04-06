@@ -23,28 +23,31 @@ body{
         color: #F6F6F6;
     }
 }
+strong{
+    color: #a10606
+}
 .cabecalho{
     padding: 5% 0 0 15%;
 }
 .cabecalho__menu{
  display: flex;   
- gap: 80px;
+ gap: 100px;
  font-family: 'montserrat' , sans-serif;
 }
 .cabecalho__menu__link{
     color: white;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 30px;
     font-weight: 600;  
     cursor: pointer;
 }
 .cabecalho__menu__link:hover{
-    color: #22D4FD;
+    color: #a10606;
     transition: 0.3s;
     transform: scale(1.1);
 }
 .titulo-destaque{
-    color: #22D4FD;
+    color: #a10606;
 }
 .apresentacao{
     padding: 8% 15%;
@@ -85,7 +88,7 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #22D4FD;
+    border: 2px solid #a10606;
     width: 378px;
     text-align: center;
     border-radius: 8px;
@@ -99,6 +102,9 @@ body{
 .apresentacao__links__link:hover{
     background-color: #272727;
 }
+.img__ancoras{
+    width: 33px;
+}
 .img__ph{
     width: 450px;
     border-radius: 20px;
@@ -106,10 +112,10 @@ body{
 }
 .rodape{
     color: #000000;
-    background-color: #22D4FD;
+    background-color: #a10606;
     padding: 24px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    font-weight: 400;
+    font-weight: 600;
 }
