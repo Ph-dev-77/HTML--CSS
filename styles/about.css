@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root{
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria:  #123458;
+    --font-primaria: 'Montserrat', sans-serif;
+    --font-secundaria: 'poppins', sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,9 +16,9 @@
 body{
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: #000000;
-    color: #F6F6F6;
-    font-family: 'Inter', sans-serif;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+   
 }
 .cabecalho{
     padding: 8% 5% 0 4%;
@@ -19,12 +27,12 @@ body{
 .cabecalho__menu{
  display: flex;   
  gap: 80px;
- font-family: 'poppins', sans-serif;
+ font-family: var(--font-primaria);
  justify-content: center;
 text-align: center;
 }
 .cabecalho__menu__link{
-    color: white;
+    color: var(--cor-secundaria);
     text-decoration: none;
     font-size: 23px;
     font-weight: 600;  
@@ -32,7 +40,7 @@ text-align: center;
     font-size: 35px;
 }
 .cabecalho__menu__link:hover{
-    color: #a10606;
+    color: var(--cor-terciaria);
     transition: 0.3s;
     transform: scale(1.1);
 }
@@ -47,14 +55,28 @@ text-align: center;
     gap: 20px;
 }
 
+.titulo-destaque{
+    color:var(--cor-terciaria);
+}
+
 .paragrafo-text {
-    width: 615px;
+    width: 741px;
     line-height: 1.6;
     font-size: 26px;
     text-align: center; /* ou center, se preferir centralizar o texto */
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font-secundaria)
   
 }
+.rodape{
+    color: #000000;
+    background-color:var(--cor-terciaria);
+    padding: 24px;
+    text-align: center;
+    font-family: var(--font-primaria);
+    font-size: 24px;
+    font-weight: 600;
+}
+
 
 
 
