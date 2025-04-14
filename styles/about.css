@@ -10,16 +10,18 @@ body{
     box-sizing: border-box;
     background-color: #000000;
     color: #F6F6F6;
+    font-family: 'Inter', sans-serif;
 }
 .cabecalho{
-    padding: 8% 0 0 4%;
+    padding: 8% 5% 0 4%;
    
 }
 .cabecalho__menu{
  display: flex;   
  gap: 80px;
- font-family: 'montserrat' , sans-serif;
+ font-family: 'poppins', sans-serif;
  justify-content: center;
+text-align: center;
 }
 .cabecalho__menu__link{
     color: white;
@@ -28,28 +30,31 @@ body{
     font-weight: 600;  
     cursor: pointer;
     font-size: 35px;
-    
 }
 .cabecalho__menu__link:hover{
-    color: #22D4FD;
+    color: #a10606;
     transition: 0.3s;
     transform: scale(1.1);
 }
 /* inicio do paragrafo */
 
-.principal-text{
+.principal-text {
     display: flex;
-    text-align: center;
-    padding: 4% 0 0 4%;
     justify-content: center;
-   
-   
-}
-.paragrafo-text{
+    align-items: center; /* Alinha verticalmente, se tiver altura definida */
+    padding: 4%;
     flex-direction: column;
-    width: 615px;
-    line-height: 25px;
-    font-size: 20px;
+    gap: 20px;
 }
+
+.paragrafo-text {
+    width: 615px;
+    line-height: 1.6;
+    font-size: 26px;
+    text-align: center; /* ou center, se preferir centralizar o texto */
+    font-family: 'Poppins', sans-serif;
+  
+}
+
 
 
