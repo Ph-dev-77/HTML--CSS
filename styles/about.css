@@ -77,6 +77,28 @@ text-align: center;
     font-weight: 600;
 }
 
+/* media query */
+
+@media (max-width:840px) {
+    *{
+        margin: 0;
+    }
+
+    body{
+        padding: 2%;
+        
+    }
+
+    .paragrafo-text{
+        font-size: 20px;
+        width:450px;
+
+    }
+    .rodape{
+        width: 96%;
+    }
+}
+
 
 
 
