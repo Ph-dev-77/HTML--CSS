@@ -53,6 +53,7 @@ text-align: center;
     padding: 4%;
     flex-direction: column;
     gap: 20px;
+    
 }
 
 .titulo-destaque{
@@ -85,14 +86,14 @@ text-align: center;
     }
 
     body{
-        padding: 2%;
+       
         
     }
 
-    .paragrafo-text{
-        font-size: 20px;
-        width:auto;
 
+    .paragrafo-text{
+        font-size: 30px;
+        width:auto;
     }
     .rodape{
         width: 96%;
