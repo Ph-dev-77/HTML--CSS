@@ -113,7 +113,7 @@ strong{
     
 }
 .img__ph{
-    width: 65%;
+    width: 80%;
     border-radius: 20px;
     box-shadow: #ffffff34 1px 1px 7px 8px;
 }
@@ -143,6 +143,7 @@ strong{
     .apresentacao__conteudo{
         width: auto;
     }
+   
     
 }
 
